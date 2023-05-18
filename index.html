@@ -1,23 +1,24 @@
-<html lang="en">
+ <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>CSS Intro</title>
     <!-- Exercise 1: Add a link element with a href attribute that links your external css file to this document  -->
+    <link rel="stylesheet" href="./index.css" />
   </head>
 
   <body>
     <header>
       <nav>
         <ul>
-          <li>
-            <a href="/">Home</a>
+          <li class="d-inline">
+            <a class="nav-link" class="nav-link" href="/">Home</a>
           </li>
-          <li>
-            <a href="/about">About</a>
+          <li class="d-inline">
+            <a class="nav-link" href="/about">About</a>
           </li>
-          <li>
-            <a href="/projects">Projects</a>
+          <li class="d-inline">
+            <a class="nav-link" href="/projects">Projects</a>
           </li>
         </ul>
       </nav>
@@ -25,21 +26,21 @@
 
     <main>
       <section>
-        <h1>Main Heading</h1>
-        <img src="./images/example.png" alt="Author Headshot" />
-        <p>Author.. Bio...</p>
+        <h1 id ="title">Main Heading</h1>
+        <img id="avatar" src="./images/ZachDrawing.png" alt="Author Headshot" />
+        <p>Author: Zachary Padovano Bio: Too long and too exciting to put here</p>
       </section>
       <article>
         <section>
-          <h2>Sub Heading</h2>
-          <p>Lorem ipsum...</p>
+          <h2>Story of my life</h2>
+          <p>Well it all started on a dark and stormy night...</p>
         </section>
         <section>
-          <h2>Sub Heading</h2>
-          <p>Lorem ipsum...</p>
+          <h2>How I got to where I am now</h2>
+          <p>By watching tons of anime and being very social</p>
           <div>
-            <h3>Another Sub Heading</h3>
-            <p>Lorem ipsum...</p>
+            <h3>The End?</h3>
+            <p>There is never an end. Only a new beginning!</p>
           </div>
         </section>
       </article>
@@ -48,11 +49,11 @@
     <footer>
       <nav>
         <ul>
-          <li>
-            <a href="/privacy">Privacy Policy</a>
+          <li class="d-inline">
+            <a class="nav-link" href="/privacy">Privacy Policy</a>
           </li>
-          <li>
-            <a href="/terms">Terms and Conditions</a>
+          <li class="d-inline">
+            <a class="nav-link" href="/terms">Terms and Conditions</a>
           </li>
         </ul>
       </nav>
